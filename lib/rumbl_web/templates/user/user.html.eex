@@ -1,0 +1,9 @@
+
+<div>
+<ul>
+    <strong>Name:</strong>
+  <strong>  <%= @user.name %></strong> (<%= @user.id %>)
+    <strong>Username:</strong>
+    <%= @user.username %>
+</ul>
+</div>

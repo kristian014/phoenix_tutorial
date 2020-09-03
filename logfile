@@ -1,0 +1,95 @@
+2020-09-01 18:27:12.566 BST [2402] FATAL:  lock file "postmaster.pid" already exists
+2020-09-01 18:27:12.566 BST [2402] HINT:  Is another postmaster (PID 369) running in data directory "/usr/local/pgsql/data"?
+2020-09-01 18:28:09.373 BST [2408] LOG:  starting PostgreSQL 12.3 on x86_64-pc-linux-gnu, compiled by gcc-5 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2020-09-01 18:28:09.410 BST [2408] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-01 18:28:09.410 BST [2408] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-01 18:28:09.416 BST [2408] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-09-01 18:28:09.473 BST [2409] LOG:  database system was shut down at 2020-09-01 18:28:05 BST
+2020-09-01 18:28:09.518 BST [2408] LOG:  database system is ready to accept connections
+2020-09-01 18:28:20.800 BST [2467] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:20.803 BST [2473] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:20.812 BST [2474] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:20.819 BST [2475] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:20.829 BST [2476] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:20.835 BST [2477] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:20.846 BST [2478] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:20.859 BST [2479] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:20.870 BST [2480] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:20.880 BST [2481] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:22.440 BST [2483] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:22.513 BST [2484] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:22.947 BST [2485] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:22.997 BST [2486] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:23.039 BST [2487] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:23.052 BST [2488] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:23.171 BST [2489] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:23.678 BST [2494] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:23.728 BST [2495] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:23.763 BST [2496] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:25.571 BST [2497] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:27.090 BST [2501] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:27.093 BST [2502] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:27.121 BST [2503] FATAL:  database "rumbl_dev" does not exist
+2020-09-01 18:28:52.041 BST [2410] WARNING:  could not flush dirty data: Function not implemented
+2020-09-01 18:28:52.061 BST [2553] WARNING:  could not flush dirty data: Function not implemented
+2020-09-02 01:03:02.297 BST [6052] ERROR:  duplicate key value violates unique constraint "users_username_index"
+2020-09-02 01:03:02.297 BST [6052] DETAIL:  Key (username)=(kristian01) already exists.
+2020-09-02 01:03:02.297 BST [6052] STATEMENT:  INSERT INTO "users" ("name","username","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id"
+2020-09-02 01:09:28.890 BST [6048] ERROR:  duplicate key value violates unique constraint "users_username_index"
+2020-09-02 01:09:28.890 BST [6048] DETAIL:  Key (username)=(kristian01) already exists.
+2020-09-02 01:09:28.890 BST [6048] STATEMENT:  INSERT INTO "users" ("name","username","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id"
+2020-09-02 01:10:37.887 BST [6426] ERROR:  database "rumbl_dev" already exists
+2020-09-02 01:10:37.887 BST [6426] STATEMENT:  CREATE DATABASE "rumbl_dev" ENCODING 'UTF8'
+2020-09-02 03:03:31.403 BST [2413] WARNING:  worker took too long to start; canceled
+2020-09-02 03:03:31.502 BST [7214] WARNING:  autovacuum worker started without a worker entry
+2020-09-02 07:33:31.425 BST [2413] WARNING:  worker took too long to start; canceled
+2020-09-02 07:33:31.583 BST [7243] WARNING:  autovacuum worker started without a worker entry
+2020-09-02 08:33:31.445 BST [2413] WARNING:  worker took too long to start; canceled
+2020-09-02 08:33:31.849 BST [7249] WARNING:  autovacuum worker started without a worker entry
+2020-09-02 16:22:32.602 BST [2408] LOG:  received fast shutdown request
+2020-09-02 16:22:32.609 BST [2408] LOG:  aborting any active transactions
+2020-09-02 16:22:32.611 BST [6594] FATAL:  terminating connection due to administrator command
+2020-09-02 16:22:32.625 BST [2408] LOG:  background worker "logical replication launcher" (PID 2415) exited with exit code 1
+2020-09-02 16:22:32.673 BST [2410] LOG:  shutting down
+2020-09-02 16:22:32.832 BST [2408] LOG:  database system is shut down
+2020-09-02 16:40:44.051 BST [10388] LOG:  starting PostgreSQL 12.3 on x86_64-pc-linux-gnu, compiled by gcc-5 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2020-09-02 16:40:44.105 BST [10388] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-02 16:40:44.105 BST [10388] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-02 16:40:44.114 BST [10388] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-09-02 16:40:44.221 BST [10389] LOG:  database system was shut down at 2020-09-02 16:40:33 BST
+2020-09-02 16:40:44.316 BST [10388] LOG:  database system is ready to accept connections
+2020-09-02 16:45:44.390 BST [10390] WARNING:  could not flush dirty data: Function not implemented
+2020-09-02 18:57:18.881 BST [11402] ERROR:  database "rumbl_dev" is being accessed by other users
+2020-09-02 18:57:18.881 BST [11402] DETAIL:  There is 1 other session using the database.
+2020-09-02 18:57:18.881 BST [11402] STATEMENT:  DROP DATABASE "rumbl_dev"
+2020-09-02 18:57:34.862 BST [11453] WARNING:  could not flush dirty data: Function not implemented
+2020-09-02 18:59:53.989 BST [11532] ERROR:  column v0.url does not exist at character 17
+2020-09-02 18:59:53.989 BST [11532] HINT:  Perhaps you meant to reference the column "v0. url".
+2020-09-02 18:59:53.989 BST [11532] STATEMENT:  SELECT v0."id", v0."url", v0."description", v0."title", v0."user_id", v0."inserted_at", v0."updated_at" FROM "videos" AS v0
+2020-09-02 19:10:53.009 BST [11638] ERROR:  database "rumbl_dev" is being accessed by other users
+2020-09-02 19:10:53.009 BST [11638] DETAIL:  There are 10 other sessions using the database.
+2020-09-02 19:10:53.009 BST [11638] STATEMENT:  DROP DATABASE "rumbl_dev"
+2020-09-02 19:11:10.526 BST [11687] ERROR:  database "rumbl_dev" is being accessed by other users
+2020-09-02 19:11:10.526 BST [11687] DETAIL:  There are 10 other sessions using the database.
+2020-09-02 19:11:10.526 BST [11687] STATEMENT:  DROP DATABASE "rumbl_dev"
+2020-09-02 19:11:21.662 BST [11738] WARNING:  could not flush dirty data: Function not implemented
+2020-09-02 19:38:00.261 BST [12242] WARNING:  could not flush dirty data: Function not implemented
+2020-09-02 19:41:28.652 BST [12332] ERROR:  syntax error at or near ")" at character 42
+2020-09-02 19:41:28.652 BST [12332] STATEMENT:  SELECT * FROM "public"."users" WHERE "id") IS NULL ORDER BY "id" LIMIT 300 OFFSET 0;
+2020-09-02 19:41:36.735 BST [12332] ERROR:  syntax error at or near ")" at character 49
+2020-09-02 19:41:36.735 BST [12332] STATEMENT:  select count(*) from "public"."users" WHERE "id") IS NULL;
+2020-09-02 19:41:41.330 BST [12332] ERROR:  syntax error at or near ")" at character 42
+2020-09-02 19:41:41.330 BST [12332] STATEMENT:  SELECT * FROM "public"."users" WHERE "id") IS NULL ORDER BY "id" LIMIT 300 OFFSET 0;
+2020-09-02 19:41:42.854 BST [12332] ERROR:  syntax error at or near ")" at character 49
+2020-09-02 19:41:42.854 BST [12332] STATEMENT:  select count(*) from "public"."users" WHERE "id") IS NULL;
+2020-09-02 20:49:54.883 BST [13060] ERROR:  database "rumbl_dev" is being accessed by other users
+2020-09-02 20:49:54.883 BST [13060] DETAIL:  There are 10 other sessions using the database.
+2020-09-02 20:49:54.883 BST [13060] STATEMENT:  DROP DATABASE "rumbl_dev"
+2020-09-02 20:50:37.734 BST [13114] WARNING:  could not flush dirty data: Function not implemented
+2020-09-02 23:41:31.173 BST [14116] ERROR:  relation "videos" already exists
+2020-09-02 23:41:31.173 BST [14116] STATEMENT:  CREATE TABLE "videos" ("id" bigserial, "url" varchar(255), "title" varchar(255), "description" text, "user_id" bigint CONSTRAINT "videos_user_id_fkey" REFERENCES "users"("id"), "inserted_at" timestamp(0) NOT NULL, "updated_at" timestamp(0) NOT NULL, PRIMARY KEY ("id"))
+2020-09-03 09:04:34.938 BST [10393] WARNING:  worker took too long to start; canceled
+2020-09-03 09:04:35.264 BST [14513] WARNING:  autovacuum worker started without a worker entry
+2020-09-03 11:07:42.046 BST [15629] ERROR:  duplicate key value violates unique constraint "categories_name_index"
+2020-09-03 11:07:42.046 BST [15629] DETAIL:  Key (name)=(Test) already exists.
+2020-09-03 11:07:42.046 BST [15629] STATEMENT:  INSERT INTO "categories" ("name","inserted_at","updated_at") VALUES ($1,$2,$3) RETURNING "id"
